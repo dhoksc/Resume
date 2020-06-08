@@ -1,0 +1,46 @@
+/*general*/
+* {
+    padding: 0;
+}
+
+body {
+    width: 850px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+
+header h1 {
+    text-align: center;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul, header li {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/*sections*/
+
+.WKU, .Monocrystal, .stateFarm, .MIRTEK, .TD, .AFS {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 80%;
+}
+
+.period {
+    width: 20%;
+    text-align: right;
+}
+
+ul {
+    padding-left: 20px;
+}
