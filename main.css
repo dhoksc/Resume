@@ -4,7 +4,7 @@
 }
 
 body {
-    width: 850px;
+    width: 54rem;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -43,4 +43,20 @@ header ul, header li {
 
 ul {
     padding-left: 20px;
+}
+
+@media only screen and (max-width: 55rem) and (min-width: 38rem) {
+    body {
+        width: 36rem;
+    }
+}
+
+@media only screen and (max-width: 38rem) {
+    body {
+        width: 27rem;
+    }
+
+    header h1 {
+        text-align: left;
+    }
 }
