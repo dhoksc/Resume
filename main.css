@@ -1,62 +1,75 @@
 /*general*/
+
 * {
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    width: 54rem;
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
+  width: 54rem;
+  margin: auto;
+  padding-bottom: 4rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*header*/
 
 header h1 {
-    text-align: center;
+  text-align: center;
+  margin: 2rem 0;
 }
 
 .contactInfo {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-header ul, header li {
-    list-style: none;
-    padding-left: 0px;
+header ul,
+header li {
+  list-style: none;
+  padding-left: 0;
 }
 
 /*sections*/
 
-.WKU, .Monocrystal, .stateFarm, .MIRTEK, .TD, .AFS {
-    display: flex;
-    justify-content: space-between;
+.devhouse,
+.WKU,
+.Monocrystal,
+.stateFarm,
+.MIRTEK,
+.TD,
+.AFS {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
 .description {
-    width: 80%;
+  width: 70%;
 }
 
 .period {
-    width: 20%;
-    text-align: right;
+  width: 30%;
+  text-align: right;
 }
 
 ul {
-    padding-left: 20px;
+  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 @media only screen and (max-width: 55rem) and (min-width: 38rem) {
-    body {
-        width: 36rem;
-    }
+  body {
+    width: 36rem;
+  }
 }
 
 @media only screen and (max-width: 38rem) {
-    body {
-        width: 27rem;
-    }
+  body {
+    width: 27rem;
+  }
 
-    header h1 {
-        text-align: left;
-    }
+  header h1 {
+    text-align: left;
+  }
 }
